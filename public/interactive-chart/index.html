@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <body>
+    <div class="main">
+      <a href="/">
+        <div class="back-button"></div>
+      </a>
+      Top cancers in Singapore based on crude numbers
+
+      <div id="year" class="center" style="padding-top: 10%">1988 - 1992</div>
+
+      <div class="lung-chart-container">
+        <div id="lung-number" class="lung-number" >4145</div>
+        <div class="lung" id="lung"></div>
+        <div class="lung-label">lung</div>
+      </div>
+
+      <div class="colorectal-chart-container">
+        <div id="colorectal-number" class="colorectal-number" >3900</div>
+        <a href="google.com">
+          <div class="colorectal" id="colorectal">
+            <div class="colorectal-link">click to learn more</div>
+          </div>
+        </a>
+        <div class="colorectal-label">colon & <br />rectum</div>
+      </div>
+
+      <div class="breast-chart-container">
+        <div id="breast-number" class="breast-number" >2631</div>
+
+        <div class="breast" id="breast"></div>
+        <div class="breast-label">breast</div>
+      </div>
+
+      <div class="slidecontainer">
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value="0"
+          step="20"
+          id="myRange"
+          class="slider"
+          onchange="setChart( this.value )"
+        />
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="index.js"></script>
+</html>
