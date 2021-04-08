@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #b21e24;
+}
+
+h5 {
+  margin: auto;
+  text-align: left;
+  padding-bottom: 10%;
+  color: #ffecd1;
+}
+
+.reality {
+  padding: 20px;
+}
+
+.button {
+  width: 285px;
+  height: 60px;
+  border: 1px solid #ffecd1;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: none;
+  margin: 10px auto;
+}
+
+#myProgress {
+  width: 95%;
+  background-color: #ddd;
+  margin: auto;
+}
+
+#myBar {
+  width: 50%;
+  height: 30px;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  transition: width 0.3s;
+}

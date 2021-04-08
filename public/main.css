@@ -1,0 +1,65 @@
+html,
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+}
+@font-face {
+  font-family: 'Futura';
+  src: url('assets/Futura-Medium.woff') format('woff2');
+}
+@font-face {
+  font-family: 'DMSans-Bold';
+  src: url('assets/DMSans-Bold.woff') format('woff2');
+}
+
+h1 {
+  font-family: DMSans-Bold;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: -1.6px;
+  text-transform: capitalize;
+  color: #001524;
+}
+
+h5 {
+  font-family: DMSans-Bold;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: -0.355556px;;
+  color: #001524;
+}
+
+body {
+  font-family: Futura;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  
+}
+
+  .center {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
+  }
+
+  .main {
+    padding-top: 45px;
+    padding-right: 45px;
+    padding-bottom: 0px;
+    padding-left: 45px;
+  }
+
+  .back-button {
+    height: 50px;
+    width: 50px;
+    background: url(assets/back-button.svg);
+  }
+
+  

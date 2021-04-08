@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #b21e24;
+  color: #ffecd1;
+}
+
+.lung-chart-container {
+  position: absolute;
+  bottom: 10%;
+  width: 22%;
+  height: 50%;
+  left: 7%;
+}
+.breast-chart-container {
+  position: absolute;
+  bottom: 10%;
+  width: 22%;
+  height: 50%;
+  right: 7%;
+}
+
+.colorectal-chart-container {
+  position: absolute;
+  bottom: 10%;
+  width: 22%;
+  height: 50%;
+  margin: 0 auto;
+  right: 0; left: 0;
+}
+
+.lung {
+  width: 100%;
+  height: 38%;
+  background: #ffecd1;
+  transition: height 0.3s;
+  position: absolute;
+  bottom: 10%;
+  border-radius: 20px;
+}
+.lung-number {
+  width: 100%;
+  position: absolute;
+  bottom: 48%;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  transition: bottom 0.3s;
+}
+
+
+.colorectal {
+  width: 100%;
+  height: 36%;
+  background: #FFCD1A;
+  transition: height 0.3s;
+  position: absolute;
+  bottom: 10%;
+  border-radius: 20px;
+  
+}
+
+.colorectal-number {
+  width: 100%;
+  position: absolute;
+  bottom: 46%;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  transition: bottom 0.3s;
+}
+
+
+.breast {
+  width: 100%;
+  height: 24%;
+  background: #ffecd1;
+  transition: height 0.3s;
+  position: absolute;
+  bottom: 10%;
+  border-radius: 20px;
+}
+
+.breast-number {
+  width: 100%;
+  position: absolute;
+  bottom: 34%;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  transition: bottom 0.3s;
+}
+.lung-label {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+
+.colorectal-label {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.colorectal-link {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #001524;
+
+}
+
+
+.breast-label {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.slidecontainer {
+  position: absolute;
+  bottom: 3%;
+  right: 7%;
+  left: 7%;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 5px; /* Specified height */
+  background: #ffecd1;
+  outline: none; /* Remove outline */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #FFCD1A; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 50%;
+  outline: none; /* Remove outline */
+
+
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #FFCD1A; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 50%;
+  outline: none; /* Remove outline */
+
+
+}

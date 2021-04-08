@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #b21e24;
+  }
+
+  h5 {
+    margin: auto;
+    text-align: left;
+    padding-bottom: 20%;
+    color: #FFECD1;
+  
+  }
+
+  .reality {
+      padding: 20px;
+
+  }
